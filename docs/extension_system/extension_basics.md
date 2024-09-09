@@ -32,6 +32,7 @@ These files are the bare minimum required for an extension to function properly.
 ### extension.json
 
 The `extension.json` file serves as a basic configuration file for the extension. A proper `extension.json` file should contain the below content
+Important note: Make sure that in the "nodes" section "Main.tscn" is spelled correctly, as Godot may create the node with the lowercase name "main.tscn" and this will cause the extension to not work after installing it.
 ```
 {
     "name": "Example",
